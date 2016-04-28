@@ -1,2 +1,2 @@
 # GrooveMP3-Electron
-A basic wrapper for GrooveMP3
+A simple wrapper for GrooveMP3
