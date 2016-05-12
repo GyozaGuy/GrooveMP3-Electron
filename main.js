@@ -16,9 +16,6 @@ var browserWindow = electron.BrowserWindow;
 var appIcon = path.join(__dirname, 'images', 'app.png'); // NOTE: add image to ./image!
 var appIconEvent = path.join(__dirname, 'images', 'app_event.png'); // NOTE: add image to ./image!
 var ipc = electron.ipcMain;
-
-electron.crashReporter.start();
-
 var mainWindow;
 var sysTray;
 var isQuitting = false;
